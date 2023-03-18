@@ -1,5 +1,5 @@
 # garp-reply
-Garp Reply Mitigation for Keepalived on Meraki Managed Networks
+Garp Reply 
 
 ## What is this?
 
