@@ -1,11 +1,7 @@
 # garp-reply
 Garp Reply Mitigation for Keepalived on Meraki Managed Networks
 
-## Problem Statement & Solution
+## What is this?
 
-On Meraki networks I have observed that meraki switches (in this case a layer 3 switch) does not respond to GARP request packets coming from keepalived failovers.
-However! It does respond to replies to change the ARP Cache mappings. In this case we can craft a GARP reply with some magic and send it across the wire to update the mapping. 
+I wrote this quite a while ago, but since the original purpose isn`t really viable anymore this is purely just to be able to GARP reply packets. 
 
-## Fair warning
-
-This may not work for everyone.
